@@ -1,8 +1,8 @@
 # NuxiiGit
 
-NuxiiGit contains the source code to "Kat," a command-line freelancer that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://katsaii.newgrounds.com/).
+NuxiiGit contains the source code to "Kat," a command-line application that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://katsaii.newgrounds.com/). 
 
-## Example
+## Examples
 
 Creating a canonical instance of Kat in Haskell
 
@@ -19,3 +19,7 @@ main = putStrLn $ let katsaii = show Katsaii
                       nuxii   = show Nuxii
                       in "Kat is either " ++ katsaii ++ " or " ++ nuxii
 ```
+
+## Features
+
+Kat also offers freelancing and collaboration options using the `-f` parameter.
