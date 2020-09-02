@@ -1,13 +1,21 @@
 # NuxiiGit
 
-NuxiiGit contains the source code to "Kat," a not-very-command-line application that periodically produces open-source projects and art works.
+NuxiiGit contains the source code to "Kat," a not-very-command-line application that periodically produces [open-source projects](https://github.com/NuxiiGit?tab=repositories) and [art works](https://katsaii.newgrounds.com/).
 
 ## Example
 
-Creating an instance of Kat in Haskell
+Creating a canonical instance of Kat in Haskell
 
 ```hs
 {-# LANGUAGE TypeOperators #-}
 
-data (🙀) = Katsaii | Nuxii
+-- |Represents instances of Kat.
+data (🙀)
+    = Katsaii
+    | Nuxii
+    deriving (Eq, Show) 
+
+main = putStrLn $ let katsaii = show Katsaii
+                      nuxii   = show Nuxii
+                      in "Kat is either " ++ katsaii ++ " or " ++ nuxii
 ```
