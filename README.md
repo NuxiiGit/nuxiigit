@@ -19,7 +19,3 @@ main = putStrLn $ let katsaii = show Katsaii
                       nuxii   = show Nuxii
                       in "Kat is either " ++ katsaii ++ " or " ++ nuxii
 ```
-
-## Features
-
-Kat also offers freelancing and collaboration options using the `-f` parameter.
